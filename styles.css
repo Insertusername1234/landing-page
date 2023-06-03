@@ -24,19 +24,32 @@
 .navbar{
     display: flex;
     flex-direction: row;
+    outline: 2px solid red;
+
 }
 
 ul{
     display: flex;
     flex-direction: row;
+    gap: 25px;
+    
 }
 
-.navbar-left,.navbar-right{
+.navbar-left{
     display: flex;
-    width: 50%;
-    justify-content: center;
+    width: %;
     align-items: center;
+    outline: 2px solid red;
+
 }
+
+.navbar-right{
+    display: flex;
+    align-self: center;
+    outline: 2px solid red;
+
+}
+
 
 h1{
     font-size: 48px;
@@ -47,13 +60,46 @@ h1{
 .content{
     display: flex;
     flex-direction: row;
+    margin: 50px;
 }
 
-.content-left,.content-right{
+.content-right{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width:50%;
 }
 
-.content
+.content-right img{
+    width: 500px;
+}
+
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.p-first{
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+.sign-up-first-section{
+    width: 100px;
+    background-color: #3882f6;
+    width: 100px;
+    height: 40px;
+    border: 1px #3882f6;
+    border-radius: 10px;
+}
+
+img{
+    display: flex;
+    flex: 1;
+    margin: 50px;
+}
