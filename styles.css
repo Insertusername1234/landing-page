@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,500&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
+}
+
+body{
+    height: 100%;
+    width: 100%;
 }
 
 .first-section {
@@ -13,18 +18,20 @@
 #header-logo {
     font-size: 24px;
     color: #f9faf8;
+    margin-top: 20px;
 }
 
 .header-link {
     font-size: 18px;
     color: #E5e7eb;
     list-style-type: none;
+    margin-top: 20px;
+
 }
 
 .navbar{
     display: flex;
     flex-direction: row;
-    outline: 2px solid red;
 
 }
 
@@ -37,17 +44,15 @@ ul{
 
 .navbar-left{
     display: flex;
-    width: %;
     align-items: center;
-    outline: 2px solid red;
-
+    margin-left: 150px;
 }
 
 .navbar-right{
     display: flex;
     align-self: center;
-    outline: 2px solid red;
-
+    margin-left: auto;
+    margin-right: 110px;
 }
 
 
@@ -68,7 +73,8 @@ h1{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width:50%;
+    margin-left: auto;
+
 }
 
 .content-right img{
@@ -81,7 +87,7 @@ h1{
     flex-direction: column;
     width: 50%;
     justify-content: center;
-    margin-left: 70px;
+    margin-left: 100px;
 }
 
 .p-first{
@@ -96,10 +102,63 @@ h1{
     height: 40px;
     border: 1px #3882f6;
     border-radius: 10px;
+    margin-top: 20px;
+    color: white;
 }
 
 img{
     display: flex;
     flex: 1;
     margin: 50px;
+}
+
+.second-section{
+    text-align: center;
+}
+
+#information-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.block-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+    align-content: center;
+    margin-top: 20px;
+}
+
+.block{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 200px;
+    width: 150px;
+    align-self: center;
+    justify-content: center;
+    outline: 2px solid red;
+
+}
+
+#block-text{
+    text-align: center;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.block img{
+    border: 5px solid #3882f6;
+    border-radius: 11px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
