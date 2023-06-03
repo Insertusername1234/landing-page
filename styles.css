@@ -6,11 +6,6 @@
     font-family: 'Roboto';
 }
 
-body{
-    height: 100%;
-    width: 100%;
-}
-
 .first-section {
     background-color: #1f2937;
 }
@@ -227,5 +222,10 @@ footer{
     text-align: center;
     color:antiquewhite;
     border:20px solid #1f2937;
-    margin: 
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
